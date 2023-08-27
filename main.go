@@ -6,7 +6,8 @@ func main() {
 	fmt.Println("Hello, Gophers!")
 	//datatypes()
 	//arithmetic()
-	comparison()
+	//comparison()
+	pointers()
 }
 
 func datatypes() {
@@ -53,4 +54,15 @@ func comparison() {
 	c = a > b
 	c = a >= b
 	fmt.Print(c)
+}
+
+func pointers() {
+	a := "foo" // create a string variable
+
+	b := &a // address operator returns address of a variable
+
+	fmt.Println(*b) // dereferenced a pointer using asterik
+	*b = "bar"
+
+	fmt.Println(a)
 }
