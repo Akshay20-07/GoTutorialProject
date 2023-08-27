@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello, Gophers!")
-	datatypes()
+	//datatypes()
+	arithmetic()
 }
 
 func datatypes() {
@@ -23,4 +24,19 @@ func datatypes() {
 
 	var e int = int(d)
 	fmt.Println(e)
+}
+
+func arithmetic() {
+	a, b := 10, 5
+
+	c := a + b
+	c = a - b
+	c = a * b
+	c = a / b
+	c = a % 3
+	fmt.Println(c)
+
+	d := 10.5 / .5
+
+	fmt.Println(d)
 }
