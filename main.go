@@ -7,7 +7,8 @@ func main() {
 	//datatypes()
 	//arithmetic()
 	//comparison()
-	pointers()
+	//pointers()
+	cli()
 }
 
 func datatypes() {
