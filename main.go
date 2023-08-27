@@ -5,7 +5,8 @@ import "fmt"
 func main() {
 	fmt.Println("Hello, Gophers!")
 	//datatypes()
-	arithmetic()
+	//arithmetic()
+	comparison()
 }
 
 func datatypes() {
@@ -39,4 +40,17 @@ func arithmetic() {
 	d := 10.5 / .5
 
 	fmt.Println(d)
+}
+
+func comparison() {
+
+	a, b := 10, 5
+
+	c := a == b
+	c = a != b
+	c = a < b
+	c = a <= b
+	c = a > b
+	c = a >= b
+	fmt.Print(c)
 }
