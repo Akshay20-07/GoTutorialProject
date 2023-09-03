@@ -21,5 +21,12 @@
 	    var myName = "Mike"  //initialize with inferred type
 	    myName := "Mike" //short declaration 
 
+## Day 2 - Command Line Application
+	1. Used bufio : for buffered input output stream
+ 	2. os : to read the inputs from the console.
+  	check this one in the cliApp.go 
+
+     
+
 
 
