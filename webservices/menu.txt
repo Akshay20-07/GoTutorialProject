@@ -1,0 +1,9 @@
+Coffee
+Espresso
+Latte
+
+Hot Tea
+Lemon Tea
+Plain Tea
+
+Hot Chocolate

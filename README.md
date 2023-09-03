@@ -26,6 +26,13 @@
  	2. os : to read the inputs from the console.
   	check this one in the cliApp.go 
 
+## Day 3 - Webservice Application and Debugging in VScode
+	1. Create a handler for request and response 
+ 	2. provide infor about url of the api and related  config of port and server.
+  	check this one in the Webservices.go 
+
+	3. Create a launch.json 
+
      
 
 
